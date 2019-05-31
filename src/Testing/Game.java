@@ -1,12 +1,13 @@
 package Testing;
-
+import java.util.Scanner;
 public class Game {
     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
         Player player1 = new Player();
-        player1.setName("Lohana");
-        player1.setUsername("LHanji");
-        System.out.println("Name: " + player1.getName());
-        System.out.println("Username: " + player1.getUsername());
+        System.out.println("Name: ");
+        player1.setName(s.nextLine());
+        System.out.println("Username: ");
+        player1.setUsername(s.nextLine());
         player1.startGame();
     }
 }
