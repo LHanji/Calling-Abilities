@@ -23,17 +23,21 @@ public class Player {
     }
 
     public void startGame() {
-        System.out.println("\nDo you want to call a ability?");
+        System.out.println("--------------------------------------------------------------------------------");
+        System.out.println("\nYou said you wanna call an ability? (true or false)");
         Scanner s = new Scanner(System.in);
         Boolean answer = s.nextBoolean();
         if (answer) {
+            System.out.println("Oh, sure. There we go!");
             System.out.println("Select a Character");
             System.out.println("(1) Gon " + "(2) All Might " + "(3) Hiro");
             int selected = s.nextInt();
             switch (selected) {
                 case 1:
+                    System.out.println("--------------------------------------------------------------------------------");
                     Gon gon = new Gon();
-                    System.out.println("What ability do you want to use? ");
+                    System.out.println("You selected Gon" + "\nAnime: " + gon.anime + "\nName: " + gon.name + "\tAge: " + gon.age);
+                    System.out.println("What ability do you want to call? ");
                     System.out.println("(1) " + "(2) " + "(3)");
                     int ability = s.nextInt();
                     switch (ability) {
@@ -48,8 +52,10 @@ public class Player {
                             startGame();
                     }
                 case 2:
+                    System.out.println("--------------------------------------------------------------------------------");
                     AllMight allmight = new AllMight();
-                    System.out.println("What ability do you want to use? ");
+                    System.out.println("You selected All Might" + "\nAnime: " + allmight.anime + "\nName: " + allmight.name + "\tAge: " + allmight.age);
+                    System.out.println("What ability do you want to call? ");
                     System.out.println("(1) " + "(2) " + "(3)");
                     ability = s.nextInt();
                     switch (ability) {
@@ -65,8 +71,10 @@ public class Player {
                     }
 
                 case 3:
+                    System.out.println("--------------------------------------------------------------------------------");
                     Hiro hiro = new Hiro();
-                    System.out.println("What ability do you want to use? ");
+                    System.out.println("You selected Hiro" + "\nAnime: " + hiro.anime + "\nName: " + hiro.name + "\tAge: " + hiro.age);
+                    System.out.println("What ability do you want to call? ");
                     System.out.println("(1) " + "(2)");
                     ability = s.nextInt();
                     switch (ability) {

@@ -8,11 +8,11 @@ public class Hiro {
     public void skillOne(){
         System.out.println("Bang!");
         System.out.println("Bang!");
-        System.out.println("Bang!");
+        System.out.println("Bang!\n");
     }
 
     public void skillTwo(){
         System.out.println("DADADADADADA");
-        System.out.println("DADADADADADA");
+        System.out.println("DADADADADADA\n");
     }
 }

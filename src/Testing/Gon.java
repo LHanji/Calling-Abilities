@@ -8,18 +8,18 @@ public class Gon {
     public void skillOne(){
         System.out.println("Jan...");
         System.out.print("Ken...");
-        System.out.print("Guu!!!");
+        System.out.print("Guu!!!\n");
     }
 
     public void skillTwo(){
         System.out.println("Jan...");
         System.out.print("Ken...");
-        System.out.print("Chii!!!");
+        System.out.print("Chii!!!\n");
     }
 
     public void skillThree(){
         System.out.println("Jan...");
         System.out.print("Ken...");
-        System.out.print("Paa!!!");
+        System.out.print("Paa!!!\n");
     }
 }

@@ -6,15 +6,15 @@ public class AllMight {
     final String name = "Yagi Toshinori";
 
     public void skillOne(){
-        System.out.println("Detoroito Sumasshu!!!");
+        System.out.println("Detoroito Sumasshu!!!\n");
     }
 
     public void skillTwo(){
-        System.out.println("Okurahoma... Sumasshu!!!");
+        System.out.println("Okurahoma... Sumasshu!!!\n");
     }
 
     public void skillThree(){
         System.out.println("Yunaiteddo... Sutētesu... ");
-        System.out.print("Ovu Sumasshu!!!");
+        System.out.print("Ovu Sumasshu!!!\n");
     }
 }
