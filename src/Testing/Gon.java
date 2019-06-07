@@ -1,25 +1,19 @@
 package Testing;
 
 public class Gon {
-    final int age = 12;
-    final String anime = "Hunter x Hunter";
-    final String name = "Gon Freecss";
+    public Gon(){
+        System.out.println("Name: Gon Freecss\tAge: 12 years old\tAnime: Hunter x Hunter\n");
+    }
 
     public void skillOne(){
-        System.out.println("Jan...");
-        System.out.print("Ken...");
-        System.out.print("Guu!!!\n");
+        System.out.println("Jan...\tKen...\tGuu!!!\n");
     }
 
     public void skillTwo(){
-        System.out.println("Jan...");
-        System.out.print("Ken...");
-        System.out.print("Chii!!!\n");
+        System.out.println("Jan...\tKen...\tChii!!!\n");
     }
 
     public void skillThree(){
-        System.out.println("Jan...");
-        System.out.print("Ken...");
-        System.out.print("Paa!!!\n");
+        System.out.println("Jan...\tKen...\tPaa!!!\n");
     }
 }

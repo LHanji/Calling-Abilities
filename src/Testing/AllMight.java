@@ -1,9 +1,9 @@
 package Testing;
 
 public class AllMight {
-    final String age = "unknown";
-    final String anime = "Boku no Hero Academia";
-    final String name = "Yagi Toshinori";
+    public AllMight(){
+        System.out.println("Name: Yagi Toshinori\tAge: unknown\tAnime: Boku no Hero Academia\n");
+    }
 
     public void skillOne(){
         System.out.println("Detoroito Sumasshu!!!\n");
@@ -14,7 +14,6 @@ public class AllMight {
     }
 
     public void skillThree(){
-        System.out.println("Yunaiteddo... Sutētesu... ");
-        System.out.print("Ovu Sumasshu!!!\n");
+        System.out.println("Yunaiteddo... Sutētesu...\tOvu Sumasshu!!!\n");
     }
 }
